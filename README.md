@@ -184,8 +184,8 @@ npx playwright test
 
 | ID | Historia de usuario | Responsable | Estado |
 |----|---------------------|-------------|--------|
-| HU-01 | Como usuario quiero ingresar mi meta y plazo para saber cuánto debo ahorrar cada mes | <Valentina> | <Hecha> |
-| HU-02 | Como usuario quiero agregar un abono extra para ver cómo cambia mi cuota | <Valentina> | <Hecha> |
-| HU-03 | Como usuario quiero buscar una meta guardada por su ID para consultarla después | <Valentina> | <Hecha> |
+| HU-01 | Como usuario quiero ingresar mi meta y plazo para saber cuánto debo ahorrar cada mes | <Valentina > | <Hecha > |
+| HU-02 | Como usuario quiero agregar un abono extra para ver cómo cambia mi cuota | <Valentina > | <Hecha > |
+| HU-03 | Como usuario quiero buscar una meta guardada por su ID para consultarla después | <Valentina > | <Hecha > |
 
 
