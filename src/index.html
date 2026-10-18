@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Ahorro Programado</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+    <h1>Simulador de Ahorro Programado</h1>
+    <p class="sub">Calcula cuánto debes ahorrar cada mes para llegar a tu meta.</p>
+
+    <section>
+      <h2>Nueva meta</h2>
+      <form id="form-meta">
+        <label for="usuario">Usuario</label>
+        <select id="usuario" required></select>
+
+        <label for="meta">Meta (COP)</label>
+        <input id="meta" type="number" min="1" step="any" required>
+
+        <label for="plazo">Plazo (meses)</label>
+        <input id="plazo" type="number" min="1" step="1" required>
+
+        <label for="extra">Abono extra (opcional)</label>
+        <input id="extra" type="number" min="0" step="any">
+
+        <label for="mes_extra">Mes del abono extra (opcional)</label>
+        <input id="mes_extra" type="number" min="0" step="1">
+
+        <button type="submit">Calcular y guardar</button>
+      </form>
+      <p id="resultado" role="status"></p>
+    </section>
+
+    <section>
+      <h2>Buscar una meta</h2>
+      <form id="form-buscar">
+        <label for="id_meta">ID de la meta</label>
+        <input id="id_meta" type="number" min="1" step="1" required>
+        <button type="submit">Buscar</button>
+      </form>
+      <p id="busqueda" role="status"></p>
+    </section>
+
+    <p id="error" role="alert"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
