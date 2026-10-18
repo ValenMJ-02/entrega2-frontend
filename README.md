@@ -188,8 +188,4 @@ npx playwright test
 | HU-02 | Como usuario quiero agregar un abono extra para ver cómo cambia mi cuota | <Valentina> | <Hecha> |
 | HU-03 | Como usuario quiero buscar una meta guardada por su ID para consultarla después | <Valentina> | <Hecha> |
 
-## Equipo
 
-| Nombre | Rol | GitHub |
-|---|---|---|
-| <NOMBRE> | <Frontend / Backend / Base de datos> | @<USUARIO> |
